@@ -2,9 +2,6 @@ body {
     background-color: white;
 }
 
-#spacer{
-  height: 50px
-}
 .triangle{
   height: 23px
 }
@@ -23,18 +20,23 @@ h2{
 .menu{
   font-family: 'Lora', serif;
   font-style: italic;
-  font-size: 1.3rem;
-  word-spacing: 30px;
-  padding-left: 24px;
+
+
+}
+.ui.menu .item#page{
+  background: none;
 }
 
+.ui.medium.circular.image{
+  margin-top: 80px;
+}
 
 hr{
   width: 400px
 }
-#footer{
+
+hr#top{
   margin-top: 70px;
-  margin-bottom: 50px;
 }
 #email{
   margin-top: 40px;
