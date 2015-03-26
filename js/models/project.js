@@ -17,7 +17,7 @@ App.Project.FIXTURES = [{
   id: 2,
   name: "Feelit.co - Intern",
   image: "images/feelit.png",
-  description: "Interned with the company Feel It, a social networking app.  Created an online registration for the mobile app on the website.",
+  description: "Social media mobile-based app.  Created an online web registration for their app using rails, AJAX and rest client to make calls to their pre-existing database of 100k+ users.  Connected to the Facebook API for validating registration.  Also designed the web application to coordinate with existing styles and assets.",
   link: "http://feelit.co/",
   technologies: "Rails, AJAX, JQuery, Facebook API"
 }, {
