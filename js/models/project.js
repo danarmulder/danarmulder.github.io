@@ -6,27 +6,28 @@ App.Project = DS.Model.extend({
   technologies: DS.attr('string')
 });
 
-App.Project.FIXTURES = [{
+App.Project.FIXTURES = [
+  {
     id: 1,
+    name: "Puppyplaydate.co",
+    image: "images/puppyplaydate.co.png",
+    description: "First version was created on Rails and the front end using Javascript and Google Api.  A second version was created using extreme programming techniques including pairing and test-driven development, again on Rails.  Postgresql Database consists of single table inheritance to store users preferences for other users they would like to connect to or block.    Users can log in, upload photos, message each other, search for other users, look at a map of dog parks between each user.  The map was created with a custom API, the Mapbox API,  and Google's Geolocation API.  Messaging system uses Event Machine Websockets to create a live chat.  Deployed on an AWS EC2 Instance, with the Ubuntu 14.04 server. ",
+    link: "puppyplaydate.co",
+    technologies: "Rails, Google API, AJAX, Jquery, Backbone, Unit testing"
+  }, {
+    id: 2,
     name: "Bootstrap Labs - Intern",
     image: "images/Dealflow.png",
     description: "Worked on an internal project to create an investment management platform similar to AngelList.  For this project I learned a new stack, Meteor.js to develop on a pre-existing codebase.  Meteor uses Mongo as a database and is a platform designed for asynchronous data transfer between server and client.  Helped to zero-in on data structure and create a network-based management application.",
     link: "http://bootstraplabs.com/",
     technologies: "Meteor, MongoDB"
 }, {
-  id: 2,
+  id: 3,
   name: "Feelit.co - Intern",
   image: "images/feelit.png",
   description: "Social media mobile-based app.  Created an online web registration for their app using rails, AJAX and rest client to make calls to their pre-existing database of 100k+ users.  Connected to the Facebook API for validating registration.  Also designed the web application to coordinate with existing styles and assets.",
   link: "http://feelit.co/",
   technologies: "Rails, AJAX, JQuery, Facebook API"
-}, {
-  id: 3,
-  name: "Puppy Play Date",
-  image: "images/unipug.jpg",
-  description: "First version was created on Rails and the front end using Javascript and Google Api.  A second version was created using extreme programming techniques including pairing and test-driven development, again on Rails.  Postgresql Database consists of single table inheritance to store users preferences for other users they would like to connect to or block.    Users can log in, upload photos, message each other, search for other users, look at a map of dog parks between each user.  The map was created with a custom API, the Mapbox API,  and Google's Geolocation API.  Messaging system uses Event Machine Websockets to create a live chat.  Deployed on an AWS EC2 Instance, with the Ubuntu 14.04 server. ",
-  link: "puppyplaydate.co",
-  technologies: "Rails, Google API, AJAX, Jquery, Backbone, Unit testing"
 }, {
   id: 4,
   name: "3D Gem Game",
