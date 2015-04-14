@@ -24,8 +24,8 @@ App.Project.FIXTURES = [{
   id: 3,
   name: "Puppy Play Date",
   image: "images/unipug.jpg",
-  description: "First version was created on Rails and the front end using Javascript and Google Api.  A second version was created using test-driven development, again on Rails.  Postgresql Database consists of single table inheritance to store users preferences for other users they would like to connect to or block.    Users can log in, upload photos, message each other, search for other users.  Messaging system uses Event Machine with websockets to create a live chat.",
-  link: "",
+  description: "First version was created on Rails and the front end using Javascript and Google Api.  A second version was created using extreme programming techniques including pairing and test-driven development, again on Rails.  Postgresql Database consists of single table inheritance to store users preferences for other users they would like to connect to or block.    Users can log in, upload photos, message each other, search for other users, look at a map of dog parks between each user.  The map was created with a custom API, the Mapbox API,  and Google's Geolocation API.  Messaging system uses Event Machine Websockets to create a live chat.  Deployed on an AWS EC2 Instance, with the Ubuntu 14.04 server. ",
+  link: "puppyplaydate.co",
   technologies: "Rails, Google API, AJAX, Jquery, Backbone, Unit testing"
 }, {
   id: 4,
